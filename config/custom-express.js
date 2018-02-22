@@ -12,7 +12,7 @@ module.exports = function() {
 
     consign().
     include('routes').
-    into(app);
+  //  into(app);
 
     return app;
 }
