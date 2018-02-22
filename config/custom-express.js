@@ -12,7 +12,8 @@ module.exports = function() {
 
     consign().
     include('routes').
-  //  into(app);
+  into(app);
+    print("Nocolas, vacilação");
 
     return app;
 }
